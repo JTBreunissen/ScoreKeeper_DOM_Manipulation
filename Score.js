@@ -39,17 +39,15 @@ resetButton.addEventListener("click", function(){
 function reset(){
   p1score = 0;
   p2score = 0;
-  winningScore = 5;
   p1Display.textContent = 0;
   p2Display.textContent = 0;
-  winningScoreDisplay.textContent = 5;
   p1Display.classList.remove("winner");
   p2Display.classList.remove("winner");
   gameOver = false;
 }
 
 numInput.addEventListener("change", function(){
-  winningScoreDisplay.textContent = this.value;
-  winningScore = Number(this.value);
-  reset();
-})
+	winningScoreDisplay.textContent = this.value;
+	winningScore = Number(this.value);
+	reset();
+});
