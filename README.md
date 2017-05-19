@@ -7,4 +7,4 @@ To run the app:
 
 The winning score can be set manually and the winners score will change to green when the winning score has been reached
 
-![]http://i.imgur.com/QYXC1dn.png
+![](http://i.imgur.com/QYXC1dn.png)
